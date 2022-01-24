@@ -1,0 +1,193 @@
+2022-01-13 02:29:58.750 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-13 02:29:58.972 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-13 02:29:59.016 +0000 [error] fdk: '/bin/bash' is not a valid command. See 'fdk --help'
+2022-01-13 02:29:59.017 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:29:59.018 +0000 [error] uncaughtException: Cannot read property 'addon' of undefined
+TypeError: Cannot read property 'addon' of undefined
+    at Object.<anonymous> (/usr/local/lib/node_modules/fdk/lib/utils/product-info-util.js:10:52)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.printProductDocUrls (/usr/local/lib/node_modules/fdk/lib/cli/help.js:36:27)
+    at Object.<anonymous> (/usr/local/lib/node_modules/fdk/index.js:140:10)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+{"date":"Thu Jan 13 2022 02:29:59 GMT+0000 (Coordinated Universal Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read property 'addon' of undefined\nTypeError: Cannot read property 'addon' of undefined\n    at Object.<anonymous> (/usr/local/lib/node_modules/fdk/lib/utils/product-info-util.js:10:52)\n    at Module._compile (internal/modules/cjs/loader.js:999:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.printProductDocUrls (/usr/local/lib/node_modules/fdk/lib/cli/help.js:36:27)\n    at Object.<anonymous> (/usr/local/lib/node_modules/fdk/index.js:140:10)\n    at Module._compile (internal/modules/cjs/loader.js:999:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\n    at internal/main/run_main_module.js:17:47","os":{"loadavg":[0.44,0.76,0.64],"uptime":782747},"process":{"argv":["/usr/local/bin/node","/usr/local/bin/fdk","/bin/bash"],"cwd":"/freshdesk","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":332793,"external":1826862,"heapTotal":40431616,"heapUsed":24651568,"rss":76836864},"pid":1,"uid":1000,"version":"v12.22.9"},"stack":"TypeError: Cannot read property 'addon' of undefined\n    at Object.<anonymous> (/usr/local/lib/node_modules/fdk/lib/utils/product-info-util.js:10:52)\n    at Module._compile (internal/modules/cjs/loader.js:999:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.printProductDocUrls (/usr/local/lib/node_modules/fdk/lib/cli/help.js:36:27)\n    at Object.<anonymous> (/usr/local/lib/node_modules/fdk/index.js:140:10)\n    at Module._compile (internal/modules/cjs/loader.js:999:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":52,"file":"/usr/local/lib/node_modules/fdk/lib/utils/product-info-util.js","function":null,"line":10,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":999,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1027,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":863,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":708,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":887,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":74,"method":null,"native":false},{"column":27,"file":"/usr/local/lib/node_modules/fdk/lib/cli/help.js","function":"Object.printProductDocUrls","line":36,"method":"printProductDocUrls","native":false},{"column":10,"file":"/usr/local/lib/node_modules/fdk/index.js","function":null,"line":140,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":999,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1027,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":863,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":708,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":60,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+2022-01-13 02:30:29.771 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-13 02:30:29.996 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-13 02:30:30.039 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-13 02:30:30.039 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:30:30.039 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-13 02:30:30.655 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-13 02:30:30.656 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:30:30.657 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.17, local addon - 0.0.0[0m
+2022-01-13 02:30:31.133 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:30:32.659 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-13 02:30:32.866 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-13 02:30:32.904 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-13 02:30:32.904 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:30:32.904 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-13 02:30:33.135 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-13 02:30:33.136 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:30:33.136 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.17, local addon - 0.0.0[0m
+2022-01-13 02:30:33.604 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:30:37.620 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-13 02:30:37.832 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-13 02:30:37.868 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-13 02:30:37.869 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:30:37.869 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-13 02:30:37.993 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-13 02:30:37.994 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:30:37.994 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.17, local addon - 0.0.0[0m
+2022-01-13 02:30:38.243 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:31:11.664 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-13 02:31:11.872 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-13 02:31:11.909 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-13 02:31:11.909 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:31:11.909 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-13 02:31:12.012 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-13 02:31:12.012 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:31:12.012 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.17, local addon - 0.0.0[0m
+2022-01-13 02:31:12.278 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:31:53.785 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-13 02:31:53.995 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-13 02:31:54.032 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-13 02:31:54.032 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:31:54.032 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-13 02:31:54.231 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-13 02:31:54.232 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:31:54.232 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.17, local addon - 0.0.0[0m
+2022-01-13 02:31:54.536 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:32:38.664 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-13 02:32:38.873 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-13 02:32:38.913 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"create","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-13 02:32:38.913 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:32:38.913 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-13 02:32:39.011 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-13 02:32:39.012 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-13 02:32:39.012 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.17, local addon - 0.0.0[0m
+2022-01-13 02:32:39.273 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:20:58.028 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:20:58.584 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:20:58.675 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:20:58.676 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:20:58.676 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:20:59.910 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:20:59.911 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:20:59.912 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:21:00.577 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:42.113 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:21:42.319 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:21:42.355 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:21:42.356 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:42.356 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:21:44.267 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:21:44.268 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:44.268 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:21:44.657 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:46.273 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:21:46.487 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:21:46.525 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:21:46.525 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:46.525 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:21:46.615 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:21:46.615 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:46.615 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:21:46.859 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:48.960 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:21:49.170 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:21:49.206 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:21:49.206 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:49.207 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:21:49.299 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:21:49.300 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:21:49.300 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:21:49.526 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:23:17.796 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:23:18.004 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:23:18.040 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:23:18.041 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:23:18.041 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:23:18.190 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:23:18.190 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:23:18.190 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:23:18.488 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:15.155 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:24:15.356 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:24:15.392 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:24:15.392 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:15.392 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:24:15.499 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:24:15.499 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:15.499 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:24:15.724 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:18.317 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:24:18.520 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:24:18.557 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:24:18.557 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:18.557 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:24:19.175 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:24:19.176 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:19.176 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:24:19.400 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:31.360 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:24:31.565 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:24:31.601 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:24:31.601 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:31.601 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:24:31.693 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:24:31.693 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:31.693 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:24:31.928 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:37.722 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:24:37.922 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:24:37.957 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:24:37.958 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:37.958 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:24:38.091 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:24:38.091 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:24:38.092 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:24:38.352 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:22.112 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:30:22.323 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:30:22.360 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:30:22.360 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:22.360 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:30:22.499 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:30:22.499 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:22.499 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:30:22.840 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:25.839 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:30:26.043 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:30:26.081 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:30:26.081 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:26.082 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:30:26.189 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:30:26.190 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:26.190 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:30:26.432 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:28.506 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:30:28.722 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:30:28.760 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:30:28.761 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:28.761 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:30:28.868 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:30:28.868 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:30:28.868 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:30:29.082 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:32:46.299 +0000 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.22.9 on linux[0m
+2022-01-24 20:32:46.527 +0000 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/freshdesk/.fdk/store.sqlite"[0m
+2022-01-24 20:32:46.565 +0000 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-01-24 20:32:46.565 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:32:46.566 +0000 [debug] ([34mupdater.js[0m) [31munknown last check, likely a new installation, looking for updates again[0m
+2022-01-24 20:32:46.699 +0000 [debug] ([34mupdater.js[0m) [31mremote fdk - 7.3.0, local fdk - 7.3.0[0m
+2022-01-24 20:32:46.699 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-01-24 20:32:46.699 +0000 [debug] ([34mupdater.js[0m) [31mremote addon - 1.9.19, local addon - 0.0.0[0m
+2022-01-24 20:32:46.961 +0000 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
